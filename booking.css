@@ -1,0 +1,124 @@
+body{
+    background-color: lightblue;
+}
+.main{
+    text-align: center;
+}
+.date{
+    text-align: center;
+    
+}
+
+
+.time1{
+    text-align: center;
+}
+.time2{
+    text-align: center;
+}
+.slots .Row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.slots .Row .seat1{
+    position: relative;
+    width: 120px;
+    height: 150px;
+    background: white;
+    list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slots2 .Row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.slots2 .Row .seat2{
+    position: relative;
+    width: 120px;
+    height: 150px;
+    background: white;
+    list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slots .Row .seat1:hover{
+    background: greenyellow;
+color:black;
+}
+
+.slots2 .Row .seat2:hover{
+background: greenyellow;
+color:black;
+}
+
+.slots .Row .seat1 .booked{
+    background-color: lightcoral !important;
+}
+.slots .Row .seat1 .selected{
+background-color: lightgreen !important ;
+color: black !important;
+}
+.details{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details .details_lot{
+    position: relative;
+    list-style-type: none;
+    border-radius: 5px;
+    transition: .3s linear;
+    margin: 0 25px;
+    font-weight: 600;
+    font-size: 15px;
+    color:gray;
+}
+.details .details_lot{
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 150px;
+    background: rgb(184,184,184, .1);
+    border-radius: 10px;
+    left: -30px;
+    bottom: 2px;
+    transition: .3s linear;
+}
+.date{
+    padding: 8px 12px;
+    color: darkgray;
+    border: 1px solid black;
+    cursor: pointer;
+    appearance: none;
+    
+}
+.time1{
+    padding: 8px 12px;
+   color: darkgray;
+   border: 1px solid black;
+   cursor: pointer;
+}
+.time2{
+    padding: 8px 12px;
+    color: darkgray;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
